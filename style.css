@@ -13,13 +13,13 @@ body , html{
 }
 
 body{
-    background: url(pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center fixed;
+    background: url(imagens/fundo-madeira.jpg) no-repeat top center fixed;
 }
 
 main{
     position: relative;
     height: 100vh;
-   
+    
 }
 
 #telefone{
@@ -30,6 +30,16 @@ main{
 
     width: 311px;
     height: 627px;
-    background: url(pacote-d013/imagens/frame-iphone.png) no-repeat
-    
+    background: url(imagens/frame-iphone.png) no-repeat;
+
 }
+
+#tela{
+    position: absolute;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 472px;
+}
+
+
